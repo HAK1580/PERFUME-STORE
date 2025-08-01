@@ -1,0 +1,505 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #0D0D0D;
+    color: white;
+}
+
+nav {
+    /* border: 2px solid red; */
+    margin: 12px;
+    position: sticky;
+    top: 5px;
+
+}
+#navlogo{
+    position: absolute;
+    left: 9rem;
+    top: 0;
+
+}
+
+
+nav ul li a {
+    color: white;
+    text-decoration-line: none;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 29px;
+    list-style: none;
+    font-size: 1.3rem;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+nav ul li a:hover {
+    color: goldenrod;
+}
+
+.steelnsmoke {
+    /* border: 2px solid red ;  */
+    display: flex;
+    margin: 80px auto;
+    background-color: #000;
+    gap: 49px;
+    
+    
+}
+
+.steeltxt {
+    /* border: 2px solid white ; */
+    width: 51%;
+    margin-top: 6rem;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.90rem;
+    font-weight: 700;
+    color: #ffd900bd;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    
+}
+
+.bold {
+    color: white;
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: 'Marcellus SC', serif;
+}
+
+.a {
+    margin-top: 4rem;
+    
+}
+
+.steeltxt a {
+    color: #000;
+    border: 3px solid black;
+    background-color: #ffd900b2;
+    padding: 13px 35px;
+    text-decoration-line: none;
+    font-size: 1.50rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    border-radius: 2px;
+}
+                    /* SHOP BY COLLECTION STARTS HERE  */
+.shopbycollection{
+
+    /* border: 2px solid red ; */
+}
+.shopbycollection h2{
+    font-family:'Marcellus SC', serif;
+    font-size: 3.5rem;
+    font-weight: 500;
+    color: #ffd900bd;
+    letter-spacing: 1px;
+    margin: 1.56rem;
+}
+.itemcont{
+    /* border: 2px solid white; */
+    display: flex;
+    gap: 25px;
+}
+.item{
+    /* margin: 1px  auto; */
+    cursor: pointer;
+}
+.item img{
+    /* border: 2px solid black ; */
+    width: 17.5rem; 
+}
+.item:hover{
+    padding: 5px;
+}
+.item img:hover{
+    border: 4px solid black;
+    
+}
+.about{
+    border: 4px solid  #0D0D0D;;
+    background-color: #000;
+    margin: 14.3rem auto;
+    display: flex;
+    gap: 100px;
+    height: 30rem;
+}
+.about-txt{
+/* border: 2px solid white; */
+width: 45%;
+margin: 2rem auto;
+color: white;
+}
+.about-txt h1{
+    font-size: 4.1rem;
+    font-weight: 500;
+    color: #ffd900bd;
+    letter-spacing: 1px;
+
+}
+.about-txt p{
+    margin: 3rem auto;
+    font-size: 1.5rem;
+}
+#scentra{
+    color: rgb(255, 255, 255);
+    font-size: 1.8rem;;
+}
+/* Now the testimonials below  */
+
+
+.testimonial{
+    /* border: 2px solid red ; */
+    background-color: #000;
+
+}
+.testimonial h1{
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 200;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+    color: #ffd900b2;
+}
+.reviewvideo{
+    /* border: 2px solid red ; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reviewvideo video{
+    /* border: 2px solid ; */
+}
+
+/* CONTACTS START FROM BELOW  */
+
+.contact {
+  padding: 6rem 4rem;
+  background-color: #0D0D0D;
+  text-align: center;
+  color: white;
+  margin: 12rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contact h2 {
+  font-size: 3.5rem;
+  color: #ffd700;
+  margin-bottom: 2rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;   /* 👈 Column direction */
+  gap: 1.2rem;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #1a1a1a;
+  color: white;
+}
+
+.contact-form textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.contact-form button {
+  background-color: #ffd700;
+  color: #000;
+  padding: 0.9rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #e6c200;
+}
+
+.whatsapp-button {
+  margin-top: 2rem;
+}
+
+.whatsapp-button a {
+  background-color: #25D366;
+    color: black;
+  padding: 0.8rem 1.6rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 6px;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+  font-family: 'Poppins', sans-serif;
+}
+
+.whatsapp-button a i {
+  margin-right: 10px;
+  font-size: 1.2rem;
+}
+
+.whatsapp-button a:hover {
+  background-color: #1ebe5d;
+}
+/* floating whatsapp icon  */
+
+
+.floating-whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25D366;
+  color: white;
+  font-size: 2.8rem;
+  padding: 14px;
+  border-radius: 50%;
+  text-align: center;
+  z-index: 1000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease;
+}
+
+.floating-whatsapp:hover {
+  background-color: #1ebe5d;
+  animation: jiggle-pop 0.5s ease;
+}
+
+@keyframes jiggle-pop {
+  0% { transform: scale(1) rotate(0deg); }
+  25% { transform: scale(1.1) rotate(10deg); }
+  50% { transform: scale(1.1) rotate(-10deg); }
+  75% { transform: scale(1.05) rotate(5deg); }
+  100% { transform: scale(1) rotate(0deg); }
+}
+
+/* TIME TO MAKE IT RESPONSIVE  */
+
+
+
+/* Responsive Media Queries */
+
+/* Responsive Media Queries */
+
+/* Tablet screens (optional tweaks) */
+@media screen and (max-width: 992px) {
+  .steelnsmoke {
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+  }
+
+  .steeltxt {
+    width: 100%;
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  .about {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    gap: 2rem;
+    padding: 2rem;
+  }
+
+  .about img {
+    width: 80%;
+  }
+
+  .itemcont {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .item {
+    margin-bottom: 1.5rem;
+  }
+
+  .contact-form {
+    width: 90%;
+  }
+
+  .reviewvideo video {
+    width: 90%;
+  }
+}
+
+/* Mobile screens - Keep navbar horizontal */
+@media screen and (max-width: 600px) {
+  nav {
+    margin: 6px;
+  }
+
+  nav ul {
+    flex-direction: row;          /* Keep horizontal */
+    flex-wrap: wrap;              /* Allow wrapping if needed */
+    justify-content: center;
+    gap: 14px;
+    font-size: 0.7rem;            /* Smaller font */
+    padding: 0;
+  }
+
+  nav ul li {
+    margin: 0;
+  }
+
+  nav ul li a {
+    padding: 4px 6px;
+    font-size: 0.68rem;
+    text-align: center;
+  }
+
+  #navlogo {
+    position: static;
+    display: block;
+    margin: 0 auto 10px;
+    max-width: 80px;
+  }
+
+  .steeltxt h1 {
+    font-size: 1.7rem;
+  }
+
+  .bold {
+    font-size: 1.2rem;
+  }
+
+  .steeltxt a {
+    font-size: 1rem;
+    padding: 8px 20px;
+  }
+
+  .shopbycollection h2,
+  .about-txt h1,
+  .testimonial h1,
+  .contact h2 {
+    font-size: 1.6rem;
+  }
+
+  .item img {
+    width: 100%;
+    max-width: 200px;
+  }
+
+  .about-txt p {
+    font-size: 0.9rem;
+  }
+
+  .floating-whatsapp {
+    font-size: 3rem;
+    padding: 10px;
+    bottom: 15px;
+    right: 15px;
+  }
+
+  .whatsapp-button a {
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+  }
+}
+@media screen and (max-width: 720px) {
+  .contact {
+    padding: 2rem 1rem;
+    margin: 4rem auto;
+  }
+  #navlogo{
+    left: 0; 
+  }
+
+  .contact h2 {
+    font-size: 2.3rem;
+  }
+
+  .contact-form {
+    width: 95%;
+    max-width: none;
+    padding: 1rem;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 1.1rem;
+    padding: 1.2rem;
+  }
+
+  .contact-form button {
+    font-size: 1.1rem;
+    padding: 1rem;
+  }
+}
+@media screen and (max-width: 720px) {
+  .contact {
+    padding: 2rem 1rem;
+    margin: 4rem auto;
+  }
+
+  .contact h2 {
+    font-size: 2.3rem;
+  }
+
+  .contact-form {
+    width: 95%;
+    max-width: none;
+    padding: 1rem;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 1.1rem;
+    padding: 1.2rem;
+  }
+
+  .contact-form button {
+    font-size: 1.1rem;
+    padding: 1rem;
+  }
+}
+@media screen and (max-width: 720px) {
+  .contact {
+    padding: 2rem 1rem;
+    margin: 4rem auto;
+  }
+
+  .contact h2 {
+    font-size: 2.3rem;
+  }
+
+  .contact-form {
+    width: 95%;
+    max-width: none;
+    padding: 1rem;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 1.1rem;
+    padding: 1.2rem;
+  }
+
+  .contact-form button {
+    font-size: 1.1rem;
+    padding: 1rem;
+  }
+}
+
